@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div>
+    <div id="health">--</div>
+    <div id="hits">--</div>
+    <div id="health"></div>
+    <button onclick="app.controllers.gameController.attack('punch')">Punch</button>
+  </div>
+
+  <script type="module">
+    import app from './app.js'
+    window.app = app
+  </script>
+
+</body>
+
+</html>
